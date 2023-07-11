@@ -6,7 +6,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,7 +22,7 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 ![](./screenshots/screen_pc_1.png)
 ![](./screenshots/screen_pc_2.png)
@@ -33,9 +33,9 @@ Users should be able to:
 
 ### Links
 
-- Frontend Mentor solution url: [](https://github.com/RoksolanaVeres/news-homepage)
-- GitHub repo : [](https://github.com/RoksolanaVeres/news-homepage)
-- Live Site URL: [](https://roksolanaveres.github.io/news-homepage/)
+- [Frontend Mentor solution](https://github.com/RoksolanaVeres/news-homepage)
+- [GitHub repo](https://github.com/RoksolanaVeres/news-homepage)
+- [Live Site](https://roksolanaveres.github.io/news-homepage/)
 
 ## My process
 

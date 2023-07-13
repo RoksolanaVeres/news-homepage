@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor solution](https://github.com/RoksolanaVeres/news-homepage)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-css-grid-and-bem-naming-approach-wVEvi-jO8h)
 - [GitHub repo](https://github.com/RoksolanaVeres/news-homepage)
 - [Live Site](https://roksolanaveres.github.io/news-homepage/)
 

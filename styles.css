@@ -88,7 +88,7 @@ html {
   top: 0;
   right: 0;
   width: 70%;
-  height: 100vh;
+  height: 100%;
   padding: 6.7%;
   display: none;
 }
@@ -178,25 +178,26 @@ html {
 /* new articles */
 .new-articles__container {
   background-color: black;
-  padding: 9% 7%;
+  padding: 10% 7.2%;
 }
 
 .new-articles__header {
-  font-size: 2.6rem;
+  font-weight: 800;
+  font-size: 3rem;
   color: hsl(35, 77%, 62%);
 }
 
 .new-article {
-  padding-top: 9.75%;
+  padding-top: 10%;
 }
 
 .new-article__header {
-  padding-bottom: 4.85%;
+  padding-bottom: 5.2%;
 }
 
 .new-article__link {
   color: hsl(36, 100%, 99%);
-  font-size: 1.6rem;
+  font-size: 2rem;
   transition: all 0.2s ease-out;
 }
 
@@ -210,7 +211,7 @@ html {
 
 .new-article__text {
   color: hsl(233, 8%, 79%);
-  line-height: 2.5rem;
+  line-height: 2.2rem;
 }
 
 .new-articles__line {
@@ -284,7 +285,7 @@ html {
 }
 
 /* Responsiveness */
-@media (min-width: 641px) {
+@media (min-width: 640px) {
   .navbar__links {
     display: flex;
     gap: 4rem;
@@ -298,19 +299,39 @@ html {
     display: none;
   }
 
+  .news__container {
+    padding-bottom: 4%;
+  }
+
+  .main-article__details_container {
+    padding-bottom: 10%;
+  }
+
   .main-article__text-container {
-    padding-top: 3%;
+    padding-top: 2.5%;
   }
 
   .main-article__image {
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
   }
 
   .main-article__button {
     padding: 3% 5%;
   }
 
+  .new-articles__container {
+    padding: 5%;
+  }
+
+  .new-article {
+    padding-top: 5%;
+  }
+
   .next-articles__container {
+    padding-top: 4.5%;
+  }
+
+  .next-article__card {
     padding-top: 5%;
   }
 }
@@ -318,6 +339,7 @@ html {
 @media (min-width: 850px) {
   .news__container {
     grid-template-columns: 2fr 1fr;
+    padding-bottom: 0;
   }
 
   .main-article__text-container {
@@ -331,14 +353,6 @@ html {
 
   .main-article__button {
     padding: 4.7% 10%;
-  }
-
-  .news__container {
-    padding-bottom: 0;
-  }
-
-  .next-article__card {
-    padding-top: 5%;
   }
 }
 
@@ -364,11 +378,20 @@ html {
     padding-bottom: 0;
     padding-left: 5%;
   }
+
+  .new-articles__container {
+    background-color: black;
+    padding: 10% 7.2%;
+  }
+
+  .new-article {
+    padding-top: 10%;
+  }
 }
 
 @media (min-width: 1300px) {
   .main-article__header {
-    font-size: 5rem;
+    font-size: 5.5rem;
     line-height: 5.5rem;
   }
 }
